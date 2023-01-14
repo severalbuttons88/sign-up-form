@@ -17,12 +17,12 @@
         </div>
         <div class="credit">
           Photo by
-          <a
+          <a class="logo-link"
             href="https://unsplash.com/@alaigraphy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             >Alai Photography</a
           >
           on
-          <a
+          <a class="logo-link"
             href="https://unsplash.com/photos/IB7lI5SDdQA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             >Unsplash</a
           >
@@ -30,45 +30,53 @@
       </div>
     </header>
     <main>
-      <h1>
+        <div class="text-container">
+      <h2>
         This is not a real online service! You know you need something like this
         in your life to help you realize your deepest dreams. Sign up
         <em>now</em> to get started.
-      </h1>
+      </h2>
       <h2>You <em>know</em> you want to.</h2>
+    </div>
       <form action="">
         <section class="personal-info">
+            <div class="info-title">
           <h2>Let's do this!</h2>
-          <div>
+        </div>
+          <div class="first-name">
             <label for="first-name">FIRST NAME</label>
-            <input type="text" name="firstName" id="first-name" />
+            <input type="text" name="firstName" id="first-name" minlength="1"/>
           </div>
-          <div>
+          <div class="last-name">
             <label for="last-name">LAST NAME</label>
-            <input type="text" name="lastName" id="last-name" />
+            <input type="text" name="lastName" id="last-name" minlength="1"/>
           </div>
-          <div>
+          <div class="email">
             <label for="email">EMAIL</label>
             <input type="email" name="email" id="email" />
           </div>
-          <div>
+          <div class="phone">
             <label for="phone">PHONE NUMBER</label>
             <input type="tel" name="phoneNumber" id="phone" />
           </div>
-          <div>
+          <div class="password-one">
             <label for="first-password">PASSWORD</label>
-            <input type="password" name="firstPassword" id="first-password" />
+            <input type="password" class="error" name="firstPassword" id="first-password" minlength="2" maxlength="18"/>
+            <div class="match-pass"><span aria-label="required">*</span>Passwords do not match</div>
           </div>
-          <div>
+          <div class="password-two">
             <label for="second-password">CONFIRM PASSWORD</label>
-            <input type="password" name="secondPassword" id="second-password" />
+            <input class="error" type="password" name="secondPassword" id="second-password" minlength="2" maxlength="18"/>
           </div>
         </section>
+        <section class="submit-section">
         <div>
-          <button type="submit">Create Account</button>
+          <button class="submit-button" type="submit">Create Account</button>
+          <p class="submit-info">Already have an account? <a class="log-link" href="index.html">Log in</a></p>
         </div>
+    </section>
       </form>
-      <p>Already have an account? <a href="index.html">Log in</a></p>
+      
     </main>
   </body>
 </html>
