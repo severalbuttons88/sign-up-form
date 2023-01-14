@@ -125,6 +125,7 @@ input:focus {
     border: 1px solid red;
     height: 1.5rem;
 }
+
 input:invalid {
     border: 1px solid red;
     color:red;
@@ -134,6 +135,15 @@ input:invalid {
     margin-top: 4px;
     display:block;
     color: rgb(207, 19, 19);
+}
+.valid-match-pass {
+    font-size:14px;
+    margin-top: 4px;
+    display:block;
+    color: green;
+}
+.valid-pass {
+    border:1px solid green;
 }
 .submit-button {
     width:250px;

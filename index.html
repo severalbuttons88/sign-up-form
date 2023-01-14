@@ -7,6 +7,7 @@
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="form-style.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <header>
@@ -61,12 +62,12 @@
           </div>
           <div class="password-one">
             <label for="first-password">PASSWORD</label>
-            <input type="password" class="error" name="firstPassword" id="first-password" minlength="2" maxlength="18"/>
+            <input type="password" class="error password-one" name="firstPassword" id="first-password" minlength="2" maxlength="18"/>
             <div class="match-pass"><span aria-label="required">*</span>Passwords do not match</div>
           </div>
           <div class="password-two">
             <label for="second-password">CONFIRM PASSWORD</label>
-            <input class="error" type="password" name="secondPassword" id="second-password" minlength="2" maxlength="18"/>
+            <input class="error password-two" type="password" name="secondPassword" id="second-password" minlength="2" maxlength="18"/>
           </div>
         </section>
         <section class="submit-section">
