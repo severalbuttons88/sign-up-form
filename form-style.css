@@ -1,8 +1,23 @@
 @font-face {
-    font-family: Marcellus;
-    src: url("marcellus-regular-webfont.woff2") format("woff2"),
+  font-family: Marcellus;
+  src: url("marcellus-regular-webfont.woff2") format("woff2"),
     url("marcellus-regular-webfont.woff") format("woff");
 }
 p {
-    font-family: "Marcellus";
+  font-family: "Marcellus";
+}
+.logo-container {
+    width: 25vw;
+    height: 100vh;
+  background-image: url("./alai-photography-IB7lI5SDdQA-unsplash.jpg");
+  background-size: cover;
+  box-shadow: 1px 0px 5px black;
+  display:flex;
+
+}
+body {
+    display:flex;
+}
+.odin-logo {
+    width: 50%;
 }
