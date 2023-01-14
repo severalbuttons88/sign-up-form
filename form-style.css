@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Marcellus;
+    src: url("marcellus-regular-webfont.woff2") format("woff2"),
+    url("marcellus-regular-webfont.woff") format("woff");
+}
+p {
+    font-family: "Marcellus";
+}
